@@ -69,19 +69,19 @@ html,body{
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .progress-line.html span{
-  width: 90%;
+  width: 80%;
 }
 .bar .progress-line.css span{
-  width: 60%;
+  width: 30%;
 }
 .bar .progress-line.jquery span{
-  width: 85%;
+  width: 15%;
 }
 .bar .progress-line.python span{
-  width: 50%;
+  width: 10%;
 }
 .bar .progress-line.mysql span{
-  width: 75%;
+  width: 20%;
 }
 .progress-line span::before{
   position: absolute;
@@ -116,17 +116,17 @@ html,body{
   }
 }
 .progress-line.html span::after{
-  content: "90%";
+  content: "70%";
 }
 .progress-line.css span::after{
-  content: "60%";
+  content: "30%";
 }
 .progress-line.jquery span::after{
-  content: "85%";
+  content: "15%";
 }
 .progress-line.python span::after{
-  content: "50%";
+  content: "10%";
 }
 .progress-line.mysql span::after{
-  content: "75%";
+  content: "20%";
 }
