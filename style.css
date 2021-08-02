@@ -119,14 +119,14 @@ html,body{
   content: "70%";
 }
 .progress-line.css span::after{
-  content: "30%";
+  content: "40%";
 }
 .progress-line.jquery span::after{
-  content: "15%";
+  content: "30%";
 }
 .progress-line.python span::after{
-  content: "10%";
+  content: "20%";
 }
 .progress-line.mysql span::after{
-  content: "20%";
+  content: "30%";
 }
