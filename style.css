@@ -15,6 +15,9 @@ html,body{
   color: #fff;
   background: #6665ee;
 }
+h1{ color:maroon; 
+padding:25px;
+}
 .skill-bars{
   padding: 25px 30px;
   width: 600px;
@@ -72,16 +75,19 @@ html,body{
   width: 80%;
 }
 .bar .progress-line.css span{
-  width: 40%;
+  width: 50%;
+}
+.bar .progress-line.javascript span{
+  width: 32%;
+}
+.bar .progress-line.react span{
+  width: 18%;
 }
 .bar .progress-line.jquery span{
-  width: 30%;
+  width: 18%;
 }
-.bar .progress-line.python span{
-  width: 20%;
-}
-.bar .progress-line.mysql span{
-  width: 30%;
+.bar .progress-line.c span{
+  width: 42%;
 }
 .progress-line span::before{
   position: absolute;
@@ -119,14 +125,17 @@ html,body{
   content: "80%";
 }
 .progress-line.css span::after{
-  content: "40%";
+  content: "50%";
+}
+.progress-line.javascript span::after{
+  content: "30%";
+}
+.progress-line.react span::after{
+  content: "10%";
 }
 .progress-line.jquery span::after{
-  content: "30%";
+  content: "10%";
 }
-.progress-line.python span::after{
-  content: "20%";
-}
-.progress-line.mysql span::after{
-  content: "30%";
+.progress-line.c span::after{
+  content: "40%";
 }
